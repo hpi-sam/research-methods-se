@@ -1,0 +1,50 @@
+0. Reaction to the paper “No Silver Bullet - Essence and Accidents - of Software Engineering”:
+
+i) In my opinion, conceptualization is actually NOT the difficult part, so solving the accidental
+(incidental) part IS in fact a huge deal.
+ii) I think generative AI (40 years after publication) does serve as an adequate silver bullet.
+iii) Reading the first paper, at one point it occurred to me: maybe the conceptual part can be divided
+into two parts. One which the paper describes as the structural part, the architecture, and the second is I
+think just what functionality you want the program to have. AI can totally take care of the first one if it
+knows what functionality you want.
+Caution. Usually, AI-generated software for non-expert users (not software engineers) doesn’t give you
+full control over details, so maybe one area of innovation is to adapt it so it does.
+
+1. In your opinion, what aspects of software engineering continue to be particularly challenging, hence
+worth your personal scientific interest?
+
+Response.
+According to the explanations above, I believe continuing to resolve accidential (incidental) problems
+of software engineering will still continue to be very fruitful for a long time to come, however I am not
+certain that things I classify as accidental would not be considered essential by the author.
+Naturally, what I describe is basically pushing for further automation, which would also demand better
+interfaces with the developer for more speed. Research in programming languages, as well as human
+computer interaction specialized for the developer, a sort of developer computer interaction if you will,
+additionally in visualization. The latter would involve all possible forms of diagrams which the paper
+ironically dismissed the example of flow charts from.
+
+2. In your experience (coursework and jobs), how do you feel AI transform your practice? What looks
+positive, negative, and neutral?
+
+Response.
+The speedup is very positive, but also the cleanliness of the code is what makes it so great. It follows
+standard templates of best practice, is uniform, and really looks machine made instead of hand made
+which is of course neater as with any industrial part.
+As mentioned before, removing the current lack of full detailed control for the developer is a main
+challenge. Furthermore, occasional inaccuracies e.g. in meeting requirements are what prevent us from
+using fell-fledge developer agents because each small piece of code needs to undergo manual
+verification before integrated.
+For neutral, I won’t contribute a personal opinion, but the paper points to design choices that will in the
+end remain the human’s responsibility.
+
+3. In your opinion, how the 4 SE essential aspects are being challenged by AI? Which accidential
+aspects seemed to have been mitigated by AI?
+
+Response.
+The main role of AI is foremost aspect #2 development (code generation), but the aspect it makes the
+biggest impact and helps us the most with is aspect #4 evolution, because it can swiftly track all
+dependencies and apply changes to keep everything consistent. This is precisely the purpose of
+automation. And finally, aspect #3 validation is of course an area where automation through AI can also
+help a lot, not only automatic generation of a test suite, but also designing and selecting them.
+It is only the first aspect, requirements engineering that remains a mostly human burden, although AI
+can still contribute to that at least indirectly.
